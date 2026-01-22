@@ -1,7 +1,11 @@
-Project Title: E-Signature Drawing Pad\n
+Project Title: E-Signature Drawing Pad
+
 Module: Programming Internet of Things
+
 University: Millat Umidi University (MU)
+
 Lecturer: Lazizbek Yusupov
+
 Semester: Fall 2025
 
 A real-time touchscreen drawing application built using ESP8266 and a TFT display with touch support.
