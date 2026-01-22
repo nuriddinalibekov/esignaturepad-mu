@@ -1,4 +1,4 @@
-Project Title: E-Signature Drawing Pad
+Project Title: E-Signature Drawing Pad\n
 Module: Programming Internet of Things
 University: Millat Umidi University (MU)
 Lecturer: Lazizbek Yusupov
@@ -65,3 +65,17 @@ This approach ensures continuous drawing even at high finger speed.
 Touch calibration values are applied directly in code to map raw touch input to screen coordinates.
 
 If using a different display or controller, recalibration may be required.
+
+Wiring 
+
+LCD Pin   |	Connect to ESP32 | Description
+VCC       |	5V	             | Power supply
+GND	      | GND              | Ground
+CS	      | GPIO 15	         | Chip select for display
+RESET	    | GPIO 4           | Reset pin
+DC (RS)	  | GPIO 2	         | Data/command select
+SDI (MOSI)|	GPIO 23	         | SPI data to display
+SDO (MISO)|	GPIO 19	         | SPI data from display
+SCK       | GPIO 18	         | SPI clock
+T_CS    	| GPIO 14	         | Touch chip select
+T_IRQ     |	GPIO 27          | Touch interrupt (optional)
